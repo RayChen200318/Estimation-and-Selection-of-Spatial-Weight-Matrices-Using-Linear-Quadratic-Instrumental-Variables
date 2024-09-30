@@ -5,8 +5,6 @@ However, I encountered issues with my self-developed optimization algorithm, whe
 
 Sparse Matrix Data Generating Process
 =====
-# Sparse Matrix Data Generating Process
-
 This script generates a large-scale panel dataset with sparse matrix structures for econometric analysis. Below is a summary of the key steps involved:
 
 ## 1. Initial Parameters and Matrix Generation
@@ -30,8 +28,6 @@ This script generates a large-scale panel dataset with sparse matrix structures 
 
 BCD_lasso stage
 =====
-# Block Coordinate Descent Algorithm (LASSO Stage)
-
 This script implements a block coordinate descent algorithm for LASSO-based optimization. The process involves iterating over the elements of matrix `A`, estimating variables `beta`, `delta`, and performing convergence checks. Below is a brief overview of key functions and their roles:
 
 ## 1. **`constraint_functions`**
