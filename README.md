@@ -83,6 +83,4 @@ This script implements a block coordinate descent algorithm for LASSO-based opti
 
 BCD_adaptive lasso stage
 =====
-# Adaptive LASSO Algorithm
-
 This script implements an Adaptive LASSO-based block coordinate descent algorithm. It iteratively optimizes the elements of matrix `A`, `delta`, and `beta` with adaptive weights.
