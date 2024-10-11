@@ -16,3 +16,17 @@ This script implements a block coordinate descent algorithm for LASSO-based opti
 BCD_adaptive lasso stage
 =====
 This script implements an Adaptive LASSO-based block coordinate descent algorithm. It iteratively optimizes the elements of matrix `A`, `delta`, and `beta` with adaptive weights.
+
+
+Update Oct 11 2024
+=====
+Updated the results of the paper replication;
+Code execution order: Sparse Matrix Data Generating Process -> GLMNET_LassoStage -> GLMNET_AdaptiveLassoStage -> Choice of tuning parameter;
+
+ref
+=====
+[1] Lam, C., & Souza, P. C. L. (2019). Estimation and Selection of Spatial Weight Matrix in a Spatial Lag Model. Journal of Business & Economic Statistics, 38(3), 693–710. https://doi.org/10.1080/07350015.2019.1569526
+
+
+
+
